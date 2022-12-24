@@ -1,0 +1,177 @@
+*{
+font-family: times;
+}
+body {
+		background-image: url("https://source.unsplash.com/random/800x600");
+	}	
+		@media only screen and (max-width: 600px) {
+body {
+		background-image: url("https://static.ezgif.com/images/format-demo/butterfly.gif");
+		-webkit-animation:colorchange 20s infinite alternate;
+	}
+	}
+body {
+		min-height: 100vh;
+		color:white;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		background-color: black;
+		background-size:cover;
+		background-attachment:fixed;
+		background-repeat: no-repeat;
+		text-shadow: 0 0 3px black, 0 0 5px black;
+	}
+.bt {
+		background:red;
+		border-radius:25px 25px;
+		border: 2px solid;
+		font-size:40;
+		 -webkit-animation:colorchange 20s infinite alternate;
+}
+input[type="file"]{
+    height:50px;
+	color:red;
+	font-size: 25px;
+	background:-webkit-animation:colorchange 20s infinite alternate;;
+	
+    }
+input[type="file"]::-webkit-file-upload-button{
+    min-height: 50px;
+	-webkit-animation:colorchange 20s infinite alternate;
+	}
+.btn {
+		background:red;
+		border-radius:80px;
+		border: 2px solid;
+		font-size: 25px;
+		width:100px;
+		height:70px;
+		 -webkit-animation:colorchange 20s infinite alternate;
+	}
+.prog{
+		text-align: center;
+		border-radius: 30px;
+		border: 2px solid;
+	}
+progress {
+  text-align: center;
+  -webkit-appearance: none;
+  border: none;
+  
+  /* Set the progressbar to relative */
+  position:relative;
+}
+progress:after {
+  content:" " attr(value) "%";
+  font-size: 25px;
+  vertical-align: 0;
+  
+  /*Position text over the progress bar */
+  position:absolute;
+  left:0;
+  top:10px;
+  bottom:10px;
+  right:0;
+}
+progress::-webkit-progress-bar {
+  background-color: #c9c9c9;
+}
+progress::-webkit-progress-value {
+  background-color: #7cc4ff;
+}
+progress::-moz-progress-bar {
+  background-color: #7cc4ff;
+}
+progress{
+		height:50px;
+		width:90%; 
+		border-radius: 30px;
+		border: 2px solid;
+		overflow: hidden;		
+		 -webkit-animation:colorchange 20s infinite alternate;
+	}
+progress[value]::-webkit-progress-value {
+		background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44); 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+.animation {
+      font-style: italic;
+      width:100%;
+	  text-align: center;
+      color:#313131;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+h2 {
+		font-size:45px;
+}
+h3 {
+		font-size: auto;
+	}
