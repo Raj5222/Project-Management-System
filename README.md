@@ -16,8 +16,11 @@
 
 Login Page 
 
-![Home](https://github.com/Raj5222/Project-Management-System/assets/109301347/4ac26ad3-d3dd-4303-8689-35d0e49fb890)
+![Home](https://github.com/Raj5222/Project-Management-System/assets/109301347/c19eb4c3-d3ed-4a14-b77e-71458d0c7302)
+
 
 Ragistration Page 
 
-![Ragistration Form](https://github.com/Raj5222/Project-Management-System/assets/109301347/99e93589-5ad5-47a5-9da9-634123a23a38)
+![Ragistration Form](https://github.com/Raj5222/Project-Management-System/assets/109301347/8cba408b-3264-40a3-a3d5-49302cbcb72d)
+
+
