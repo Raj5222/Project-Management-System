@@ -1,6 +1,6 @@
 # Project-Management-System
 
-(1) => First Import PMJ.SQL File In Our MYSQL Databse ( Temp/Pmj.sql )
+(1) => First Import PMJ.SQL File In Our MYSQL Databse ( Temp/Pmj.sql ).
 
 (2) => Create Profile For Upload Project Details And Resource.
 
@@ -11,5 +11,5 @@
 (3) => That Resource Store In ( Files/Source ). 
 
       -> If Source Folder Not Available Then Create Source Folder.
-      -> Snap Shot Image Store In ( Files/Image ).
-      -> You Can Also View Your Uploaded Resources.
+      -> Snap Shot Image Store In ( Files/Images ).
+      -> Create Images Folder inside ( Files ) Folder.
