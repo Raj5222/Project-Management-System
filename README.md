@@ -1,6 +1,6 @@
 # Project-Management-System
 
-(1) => First Import PMJ.SQL In MYSQL Database ( Temp/Pmj.sql ).
+(1) => First Import PMJ.SQL In SQL Database ( Temp/Pmj.sql ).
 
 (2) => Create Profile For Upload Project Details And Resource.
 
